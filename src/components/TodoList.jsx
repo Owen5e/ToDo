@@ -54,7 +54,7 @@ const Todo = () => {
         <FaCalendarCheck className="size-7" />
         <h1 className="text-3xl">To-Do List</h1>
       </div>
-      <div className="flex items-center bg-gray-200 rounded-full mb-7 ">
+      <div className="flex justify-center items-center bg-gray-200 rounded-full mb-7 ">
         <input
           ref={inputRef}
           className="flex-1 bg-transparent placeholder:text-slate-600 placeholder:text-xl py-2 px-4 border-0 outline-none"
