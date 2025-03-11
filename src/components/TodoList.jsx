@@ -57,7 +57,7 @@ const Todo = () => {
       <div className="flex justify-center items-center bg-gray-200 rounded-full mb-7 ">
         <input
           ref={inputRef}
-          className="flex-1 bg-transparent placeholder:text-slate-600 placeholder:text-xl py-2 px-4 border-0 outline-none"
+          className="flex-1 bg-transparent placeholder:text-slate-600 placeholder:text-xl py-2 px-4 border-0 outline-none max-[360px]:w-3/4"
           type="text"
           placeholder="Enter to-do"
         />
