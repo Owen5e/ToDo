@@ -1,4 +1,4 @@
-import Todo from "./components/todo";
+import Todo from "./components/TodoList";
 import Logo from "./assets/logoblack.png";
 
 function App() {
